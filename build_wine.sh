@@ -215,7 +215,7 @@ fi
 # Prints out which environment you are building Wine for.
 # Easier to debug script errors.
 
-if [ "$TERMUX_PROOT" = "true" ]; then
+if [ "$TERMUX_PROOT" = "false" ]; then
    echo "Building Wine for proot/chroot environment"
 fi
 if [ "$TERMUX_GLIBC" = "true" ]; then
